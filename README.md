@@ -1,6 +1,10 @@
 # 🌍 DynamicGangZone
 This include creates new features that do not natively exist in the samp, functions such as synchronizing the gangzone without having to always redisplay it to the player during the connection and several other features that will help in creating systems on your server.
 
+# Dependencies ⚠️
+- [Streamer Plugin](https://github.com/samp-incognito/samp-streamer-plugin)
+- [Library YSI](https://github.com/pawn-lang/YSI-Includes)
+
 # Functions
 ```pawn
 - CreateDynamicGangZone(Float:minx, Float:miny, Float:maxx, Float:maxy, color, interior = -1, virtual = -1)
